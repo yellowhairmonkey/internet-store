@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header><h1>Internet Store</h1></header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#computers">Computers</a></li>
+        <li><a href="#accessories">Accessories</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="products" id="computers">
+        <h2>Wanna buy?</h2>
+        <p>Contact us</p>
+        <form action="https://formspree.io/f/xwplpron" method="post">
+          <p>
+            <label for="fullName">What is your full name?*</label>
+            <input type="text" id="fullName" name="fullName" required />
+          </p>
+          <p>
+            <label for="product">What you want to buy?*</label>
+            <input type="text" id="product" name="product" required />
+          </p>
+          <p>
+            <label for="note">Note</label>
+            <textarea name="note" id="note" rows="5" cols="33"></textarea>
+          </p>
+          <button type="submit">Contact</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>© Store, 2025</p>
+      <address>
+        Site was created by
+        <a href="https://github.com/yellowhairmonkey">Komyob Faizulloev</a>
+      </address>
+    </footer>
+  </body>
+</html>
