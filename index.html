@@ -17,38 +17,29 @@
     </nav>
     <main>
       <section class="products" id="computers">
-        <h2>Computers</h2>
-        <ul>
-          <li>
-            <img src="images/1.jpg" alt="Macintosh 128K" />
-            <h3>Macintosh 128K</h3>
-            <p>$2495</p>
-            <a href="contact.html">Buy</a>
-          </li>
-          <li>
-            <img src="images/2.jpg" alt="NeXT Computer" />
-            <h3>NeXT Computer</h3>
-            <p>$6500</p>
-            <a href="contact.html">Buy</a>
-          </li>
-          <li>
-            <img src="images/2.jpg" alt="NeXT Computer" />
-            <h3>NeXT Computer</h3>
-            <p>$6500</p>
-            <a href="contact.html">Buy</a>
-          </li>
-        </ul>
-      </section>
-      <section class="products" id="accessories">
-        <h2>Accessories</h2>
-        <ul>
-          <li>
-            <img src="images/3.jpg" alt="iPod Classic" />
-            <h3>iPod Classic</h3>
-            <p>$399</p>
-            <a href="contact.html">Buy</a>
-          </li>
-        </ul>
+        <h2>Wnat to buy?</h2>
+        <p>Contact us</p>
+        <form action="https://formspree.io/f/xwplpron" method="post">
+          <p>
+            <label for="Name">What is your full name?*</label>
+            <input type="text" id="Name" name="Name" required />
+          </p>
+          <p>
+            <label for="Contact">
+              How we can contact you (email or phone number)?*
+            </label>
+            <input type="text" id="Contact" name="Contact" required />
+          </p>
+          <p>
+            <label for="Product">What you want to buy?*</label>
+            <input type="text" id="Product" name="Product" required />
+          </p>
+          <p>
+            <label for="Note">Note</label>
+            <textarea name="Note" id="Note" rows="5" cols="33"></textarea>
+          </p>
+          <button type="submit">Contact</button>
+        </form>
       </section>
     </main>
     <footer>
